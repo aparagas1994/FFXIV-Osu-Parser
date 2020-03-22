@@ -1,0 +1,109 @@
+* {
+     font-family: "Aller";
+     font-size: 12pt;
+     color: white;
+     text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+ body, html {
+     margin: 0;
+}
+ html {
+     background-image: url('images/handle.png');
+     background-position: bottom right;
+     background-repeat: no-repeat;
+     box-sizing: border-box;
+     height: 100%;
+     background-color: transparent;
+     overflow: hidden;
+}
+ #encounter {
+     background: rgba(0,0,0,1);
+     text-shadow: unset;
+     width: 195px;
+     height: 40px;
+     padding: 0px;
+     padding-left: 5px;
+     padding-right: 5px;
+     border-radius: 5px;
+}
+ #encounter td {
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+ #encounter table {
+     border: none;
+     width: 100%;
+     table-layout : fixed;
+}
+ .combBox {
+     position: absolute;
+     width: 200px;
+     height: 50px;
+     vertical-align: middle;
+     display: block;
+     padding: 0px;
+     border-radius: 5px;
+}
+ .combBox > .playerName {
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     position: relative;
+     top: 5px;
+}
+ .combBox > .dmg {
+     position: relative;
+     top: -9px;
+     vertical-align: bottom;
+     font-size: 11pt;
+}
+ .combBox > .max {
+     color: SkyBlue;
+     position: relative;
+     top: -45px;
+     left: -10px;
+     font-size: 10pt;
+     text-align: right;
+}
+ .combBox > .newPercent {
+    /*color: SkyBlue;
+    */
+     position: relative;
+     top: -43px;
+     left: -7px;
+     font-size: 10pt;
+     text-align: right;
+}
+ .combBox > .rank {
+     text-align: right;
+     opacity: 0.2;
+     font-size: 24pt;
+     position: relative;
+     left: -10px;
+     top: -110px;
+}
+ .combBox img {
+     position: relative;
+     top: 5px;
+     width: 40px;
+     height: 40px;
+     padding: 2px;
+     float: left;
+}
+ #flash1 {
+     position: fixed;
+     width: 170px;
+     height: 100px;
+     left: -200px;
+     background: radial-gradient(closest-side, white 75%, rgba(255, 255, 255, 0));
+     opacity:0;
+}
+ #flash2 {
+     position: fixed;
+     width: 800px;
+     height: 100px;
+     left: -500px;
+     background: radial-gradient(closest-side, white 75%, rgba(255, 255, 255, 0));
+     opacity:0;
+     
