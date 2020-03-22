@@ -301,7 +301,7 @@ function parseActFormat(str, dictionary) {
 
 // Transforms a name into initials
 function processName(name) {
-    if (name == "YOU") return "Scylia";
+    if (name == "YOU") return "YOU";
 
     if (setting.nameInitials == "last") {
         return name.split(' ')[0];
